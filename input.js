@@ -35,6 +35,9 @@ const handleUserInput = function(key) {
     console.log('right');
     connection.write('Move: right');
   }
+  if (key === '1') {
+    connection.write('Say: Not Valid');
+  }
 };
 
 
